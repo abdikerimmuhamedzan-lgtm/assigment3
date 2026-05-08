@@ -2,7 +2,6 @@ dataset = [68, 63, 22, 98, 84, 87, 13, 92, 32, 30]
 pivot = dataset[0]
 i = -1
 j = len(dataset)
-
 while True:
     i += 1
     while dataset[i] < pivot: 

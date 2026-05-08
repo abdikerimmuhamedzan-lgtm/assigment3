@@ -1,6 +1,5 @@
 dataset = [68, 63, 22, 98, 84, 87, 13, 92, 32, 30]
-
-def heapify(arr, n, i):
+def heapify(arr,n,i):
     largest = i
     l = 2 * i + 1
     r = 2 * i + 2   
